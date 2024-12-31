@@ -93,7 +93,7 @@ impl Contract {
                 symbol: "YONO".to_string(),
                 icon: Some(DATA_IMAGE_SVG_GT_ICON.to_string()),
                 reference: Some("https://yonocoin.web.id/reference.json".to_string()),
-                reference_hash: Some(Base64VecU8::from(hex::decode("fgg3K2kFZGDBJ6Uaoomd8NiI3HgFXT46HyqnZl97Cz8=").unwrap())),
+                reference_hash: Some(Base64VecU8::from(hex::decode("7e08372b69056460c127a51aa2899df0d888dc78055d3e3a1f2aa7665f7b0b3f").unwrap())),
                 decimals: 8,
             },
         )
